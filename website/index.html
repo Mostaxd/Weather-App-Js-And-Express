@@ -1,0 +1,59 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+
+    <div class="container ">
+        <div class="main">
+            <h1>The Weather App</h1>
+
+            <div class="search">
+                <input type="text" class="search-bar input-city" placeholder="City" class="input" />
+                <input type="text" class="search-bar input-zip" placeholder="Zip Code" class="input" />
+                <input type="text" class="search-bar input-feeling" placeholder="How do you feel?" class="input" />
+                <input type="button" type="submit" value="Submit" class="btn btn-dark" id="submit" />
+            </div>
+
+            <div class="weather">
+                <div>
+                    <p class="date">Date:</p>
+                    <p class="feeling">Feeling:</p>
+                    <p class="city">City</p>
+                </div>
+
+                <div class="temp">
+                    <img class='image'
+                        src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E"
+                        alt="" width="100px" id="img" style="max-height: 120px;">
+                    <p class="degree">temp&deg;</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
